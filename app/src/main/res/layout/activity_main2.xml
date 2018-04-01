@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <EditText
+        android:id="@+id/et_shibie"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="left|top"
+        android:hint="输入文字"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bt_statrt_hecheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始合成" />
+</LinearLayout>

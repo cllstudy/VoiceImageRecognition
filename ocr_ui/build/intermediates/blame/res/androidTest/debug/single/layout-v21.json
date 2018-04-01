@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\VoiceImageRecognition\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\470707c699363de713f0cbb0b16b2849d1335c7d\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\workspace\\VoiceImageRecognition\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\470707c699363de713f0cbb0b16b2849d1335c7d\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\workspace\\VoiceImageRecognition\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\470707c699363de713f0cbb0b16b2849d1335c7d\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\workspace\\VoiceImageRecognition\\ocr_ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\470707c699363de713f0cbb0b16b2849d1335c7d\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

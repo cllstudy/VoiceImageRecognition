@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.rongsheng.voiceimagerecognition.MainActivity">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/title">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:maxLines="1"
+            android:maxWidth="220dp"
+            android:textColor="@color/white_ff"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/main_voice"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="语音识别"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/main_image"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="28dp"
+        android:gravity="center"
+        android:text="图片识别"
+        android:textSize="18sp" />
+
+</LinearLayout>

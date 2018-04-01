@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="140dp"
+    android:layout_height="115dp"
+    android:background="@drawable/dialog_fresh_bg">
+
+    <RelativeLayout
+        android:layout_width="140dp"
+        android:layout_height="115dp">
+
+        <ImageView
+            android:id="@+id/iv_dialog_fresh"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/kprogresshud_spinner"
+            tools:ignore="ContentDescription" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_fresh_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_dialog_fresh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:text="正在加载...."
+            android:textColor="@color/white_ff"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>
